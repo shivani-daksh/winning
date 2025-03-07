@@ -25,6 +25,7 @@ header{
 }
 .logo-image{
   height: 39px;
+  cursor: pointer;
 }
 .right-content{
   display: flex;
@@ -37,6 +38,20 @@ header{
   font-size: 15px;
   font-weight: bolder;
   border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s,
+  color 0.3s;
+}
+.rules-button:hover{
+  background-color: white;
+}
+.login-button:hover{
+  background-color: white;
+  color: #b7862f;
+}
+.register-button:hover{
+  background-color: white;
+  color: #b7862f;
 }
 .white-text{
   color: white;
@@ -65,7 +80,11 @@ header{
   font-weight: 700;
   line-height: 20px; 
   color: white;  
+  cursor: pointer;
 } 
+.sport-name:hover{
+  color: rgb(198, 198, 198);
+}
 .yellow{
   color: rgb(255, 250, 0);
 }  
@@ -85,6 +104,7 @@ padding-top: 12px;
 .gif{
   height: 80px;
   width: 100%;
+  cursor: pointer;
 }
 .gif-container{
   background-color: white;
@@ -107,6 +127,10 @@ padding-top: 12px;
   border-bottom: 1px solid rgba(169, 181, 197, 0.359);
   padding: 10px 15px;
   display: flex;
+  cursor: pointer;
+}
+.tile:hover{
+  background-color: rgb(241, 241, 241);
 }
 .sport-icon{
   height: 20px;
@@ -120,6 +144,7 @@ padding-top: 12px;
   line-height: 20px; 
   margin-right: 130px;
   text-wrap: nowrap;
+  
 }
 .social-link-heading{
   margin-top: 12px;
@@ -133,6 +158,7 @@ padding-top: 12px;
   margin-top: -10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .wtsp-icon{
   height: 70px;
@@ -153,11 +179,12 @@ padding-top: 12px;
   margin-top: -20px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .instagram-container{
   display: flex;
   align-items: center;
-
+  cursor: pointer;
 }
 .insta-icon{
   height: 37px;
@@ -173,7 +200,6 @@ padding-top: 12px;
   border-radius: 3px;
 }
 .scroll-window{
-  
   margin-bottom: 20px;
 }
 .scroll-window-header{
@@ -200,6 +226,7 @@ padding-top: 12px;
   background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);  
 }
 .scroll-window-image{
+  cursor: pointer;
   width: 100%;
 }
 .image2{
@@ -215,6 +242,7 @@ padding-top: 12px;
 .games-grid img{
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 .scroll-window2{
   margin-bottom: 60px;
@@ -230,6 +258,7 @@ padding-top: 12px;
 .photos img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .photo3{
   grid-row-start: 1;
