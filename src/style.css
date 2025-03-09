@@ -1,50 +1,50 @@
- *{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-p{
+p {
   margin-bottom: 0px !important;
 }
-body{
+body {
   background-color: whitesmoke;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
 }
-.black-strip{
+.black-strip {
   width: 100%;
   /* height: 25px; */
   height: 3vh;
   background-color: black;
 }
-header{
+header {
   width: 100%;
-  padding: 22px 20px 22px 20px; 
-  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);   
+  padding: 22px 20px 22px 20px;
+  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
 }
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.left-content{
+.left-content {
   gap: 10px;
   display: flex;
   align-items: center;
 }
-.left-content i{
+.left-content i {
   display: none;
 }
 
-.logo-image{
+.logo-image {
   height: 39px;
   cursor: pointer;
 }
-.right-content{
+.right-content {
   display: flex;
   gap: 5px;
 }
-.header-button{
+.header-button {
   background-color: transparent;
   border: 1px solid white;
   padding: 8px 15px;
@@ -52,34 +52,33 @@ header{
   font-weight: bolder;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s,
-  color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
-.rules-button:hover{
+.rules-button:hover {
   background-color: white;
 }
-.login-button:hover{
-  background-color: white;
-  color: #b7862f;
-}
-.register-button:hover{
+.login-button:hover {
   background-color: white;
   color: #b7862f;
 }
-.white-text{
+.register-button:hover {
+  background-color: white;
+  color: #b7862f;
+}
+.white-text {
   color: white;
 }
-.search-input{
- width: 264px;
- outline: none;
- border: 1px solid white;
- font-size: 12px;
- background-color: transparent;
- color: white;
- padding: 10px 4px 10px 10px;
- border-radius: 20px;
+.search-input {
+  width: 264px;
+  outline: none;
+  border: 1px solid white;
+  font-size: 12px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 4px 10px 10px;
+  border-radius: 20px;
 }
-.sports-horizontal-list{
+.sports-horizontal-list {
   display: flex;
   text-wrap: nowrap;
   overflow-x: auto;
@@ -87,34 +86,34 @@ header{
   padding: 10px 20px;
   gap: 35px;
 }
-.common-link{
+.common-link {
   text-decoration: none;
 }
-.sport-name{
+.sport-name {
   font-size: 12px;
   font-weight: 700;
-  line-height: 20px; 
-  color: white;  
+  line-height: 20px;
+  color: white;
   cursor: pointer;
-} 
-.sport-name:hover{
+}
+.sport-name:hover {
   color: rgb(198, 198, 198);
 }
-.yellow{
+.yellow {
   color: rgb(255, 250, 0);
-}  
-.yellow:hover{
-  color: rgb(224, 221, 13);
-}  
-main{
-width: 63%;
-height: 810px;
-margin-left: 290px;
-padding-top: 12px;
-display: flex;
-flex-direction: column;
 }
-.button-carousel-container{
+.yellow:hover {
+  color: rgb(224, 221, 13);
+}
+main {
+  width: 63%;
+  height: 810px;
+  margin-left: 290px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.button-carousel-container {
   background-color: black;
   width: 100%;
   height: 100%;
@@ -124,14 +123,14 @@ flex-direction: column;
   margin-bottom: 5px;
   padding-top: 20px;
 }
-.buttons-container{
+.buttons-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.buttons-container button{
-  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f); 
+.buttons-container button {
+  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
   padding: 17px 50px;
   font-size: 16px;
   font-weight: bold;
@@ -140,32 +139,32 @@ flex-direction: column;
   margin-bottom: 20px;
   cursor: pointer;
 }
-.buttons-container button:hover{
+.buttons-container button:hover {
   opacity: 0.8;
 }
-.carousel-container{
+.carousel-container {
   width: 900px;
   height: 350px;
 }
-.gifs{
+.gifs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 88px 88px;
   column-gap: 2px;
   row-gap: 4px;
-} 
-.gif{
+}
+.gif {
   height: 80px;
   width: 100%;
   cursor: pointer;
 }
-.gif-container{
+.gif-container {
   background-color: white;
   border: 1px solid rgba(151, 159, 164, 0.456);
   padding: 3px;
   border-radius: 3px;
 }
-.sidebar{
+.sidebar {
   background-color: white;
   position: absolute;
   left: 0;
@@ -176,31 +175,30 @@ flex-direction: column;
   padding-right: 9px;
   box-shadow: 0px 5px 8px rgba(151, 159, 164, 0.7);
 }
-.tile{
+.tile {
   color: black;
   border-bottom: 1px solid rgba(169, 181, 197, 0.359);
   padding: 10px 15px;
   display: flex;
   cursor: pointer;
 }
-.tile:hover{
+.tile:hover {
   background-color: rgb(241, 241, 241);
 }
-.sport-icon{
+.sport-icon {
   height: 20px;
   width: 20px;
 }
-.text-container{
+.text-container {
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 20px; 
+  line-height: 20px;
   margin-right: 130px;
   text-wrap: nowrap;
-  
 }
-.social-link-heading{
+.social-link-heading {
   margin-top: 12px;
   margin-left: 15px;
   color: rgb(80, 80, 80);
@@ -208,45 +206,45 @@ flex-direction: column;
   font-size: 12px;
   font-weight: 700;
 }
-.whatsapp-container{
+.whatsapp-container {
   margin-top: -10px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.wtsp-icon{
+.wtsp-icon {
   height: 70px;
   width: 70px;
 }
-.social-link-name{
+.social-link-name {
   color: black;
   margin-left: -10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
-.telegram-icon{
+.telegram-icon {
   height: 35px;
   width: 35px;
   margin-right: 18px;
   margin-left: 16.5px;
 }
-.telegram-container{
+.telegram-container {
   margin-top: -20px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.instagram-container{
+.instagram-container {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.insta-icon{
+.insta-icon {
   height: 37px;
   margin-left: 14px;
   margin-right: 15px;
 }
-.right-window-container{
+.right-window-container {
   width: 320px;
   margin-right: 9px;
   position: absolute;
@@ -254,10 +252,10 @@ flex-direction: column;
   right: 0;
   border-radius: 3px;
 }
-.scroll-window{
+.scroll-window {
   margin-bottom: 20px;
 }
-.scroll-window-header{
+.scroll-window-header {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   width: 100%;
@@ -266,9 +264,9 @@ flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   padding: 6px 10px;
-  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);  
+  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
 }
-.scroll-window-header2{
+.scroll-window-header2 {
   margin-bottom: 1px;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
@@ -278,25 +276,25 @@ flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   padding: 6px 10px;
-  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);  
+  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
 }
-.scroll-window-image{
+.scroll-window-image {
   cursor: pointer;
   width: 100%;
 }
-.image2{
+.image2 {
   margin-top: -10px;
 }
-.games-grid{
+.games-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 90px 90px 90px;
   gap: 1px;
 }
-.btn-img-overlay-container{
+.btn-img-overlay-container {
   position: relative;
 }
-.overlay-button{
+.overlay-button {
   position: absolute;
   top: 0;
   left: 0;
@@ -308,7 +306,7 @@ flex-direction: column;
   align-items: center;
   display: none;
 }
-.overlay-button button{
+.overlay-button button {
   background-color: #e1a234;
   padding: 5px 25px;
   border: none;
@@ -316,19 +314,19 @@ flex-direction: column;
   border-radius: 3px;
   cursor: pointer;
 }
-.games-grid img{
+.games-grid img {
   height: 100%;
   width: 100%;
   cursor: pointer;
 }
-.scroll-window2{
+.scroll-window2 {
   margin-bottom: 60px;
 }
-.photo-overlay-container{
+.photo-overlay-container {
   position: relative;
 }
 
-.photos{
+.photos {
   width: 82.5%;
   margin-left: 290px;
   display: grid;
@@ -336,29 +334,29 @@ flex-direction: column;
   grid-template-rows: 325px 325px 512px;
   gap: 3px;
 }
-.photos img{
+.photos img {
   width: 100%;
   height: 100%;
   cursor: pointer;
 }
-.photo3{
+.photo3 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.photo3{
+.photo3 {
   grid-column-start: 3;
   grid-column-end: 4;
 }
-footer{
+footer {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top:30px ;
+  margin-top: 30px;
   background-color: black;
   text-align: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.carousel-card{
+.carousel-card {
   width: 900px;
   height: 350px;
   display: flex;
@@ -369,14 +367,14 @@ footer{
   border: 1px solid #b7862f;
   border-radius: 5px;
 }
-.carousel-card h1{
+.carousel-card h1 {
   font-size: 40px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.get-id-button{
+.get-id-button {
   margin-top: 15px;
-  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f); 
+  background-image: linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
   padding: 15px 40px;
   font-size: 18px;
   font-weight: bold;
@@ -385,28 +383,29 @@ footer{
   margin-bottom: 30px;
   cursor: pointer;
 }
-.get-id-button:hover{
+.get-id-button:hover {
   opacity: 0.8;
 }
-.carousel-card h2{
+.carousel-card h2 {
   color: white;
   font-size: 30px;
   margin-bottom: 10px;
 }
-.card1-para, .card3-para{
+.card1-para,
+.card3-para {
   color: white;
   font-size: 20px;
   line-height: 25px;
 }
-.read-more{
+.read-more {
   font-size: 16px;
   color: #dda13b;
 }
-.read-more:hover{
+.read-more:hover {
   text-decoration: underline;
 }
 
-.steps{
+.steps {
   font-size: 18px;
   color: white;
   line-height: normal;
@@ -418,102 +417,208 @@ footer{
   right: -100px !important;
 }
 
+.categories-stripe {
+  display: none;
+}
 
-@media (max-width: 480px){
-  .left-content i{
+.footer-menu-options {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .left-content i {
     display: block;
   }
-  .left-content img{
+  .left-content img {
     position: relative;
     bottom: 5px;
   }
-  .black-strip{
+  .black-strip {
     display: none;
   }
-  .logo-image{
+  .logo-image {
     height: 30px;
   }
-  .search-input{
+  .search-input {
     display: none;
-   }
-   .rules-button{
+  }
+  .rules-button {
     display: none;
-   }
-   .header-button{
+  }
+
+  .buttons-container button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .carousel-control-prev {
+    left: 0px !important;
+  }
+  .carousel-control-next {
+    right: 0px !important;
+  }
+
+  .carousel-card {
+    width: 100%;
+  }
+
+  .carousel-card h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .carousel-card h2 {
+    font-size: 18px;
+  }
+
+  .carousel-text-container p {
+    font-size: 14px;
+  }
+
+  .carousel-card button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .header-button {
     padding: 6px 12px;
-    font-size: 12px; 
+    font-size: 12px;
   }
-  header{
-    padding: 16px 18px 16px 18px; 
-    background-image: linear-gradient(94deg, #000000, #000000 55%, #000000);  
+
+  .carousel-card {
+    height: fit-content;
   }
-  .sports-horizontal-list{
-    display: none; 
+
+  .carousel-container {
+    width: 100%;
   }
-  .scroll-window1{
-  display: none; 
-   }
- .login-button{
-  color: white;
-  background-color: #b6842d;
-  border-radius: 2px;
-  border: none;
-  padding: 5px 10px;
- }
- .register-button{
-  background-color: white;
-  color: #b6842d;
-  border-radius: 2px;
-  border: none;
-  padding: 5px 10px;
- }
-main{
-  width: 100%;
-  padding-top: 0px;
-  margin-left: 0px;
-}
-.gifs{
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 65px 65px;
-row-gap: 1px;
-column-gap: 1px;
-padding-top: 1px;
-padding-bottom: 1px;
-}
-.gif{
-  /* width: 100%; */
-  height: 100%;
-  border-radius: 5px;
-}
-.gif-container{
-  background-color: white;
-  padding: 0px;
-}
+  header {
+    padding: 16px 18px 16px 18px;
+    background-image: linear-gradient(94deg, #000000, #000000 55%, #000000);
+  }
+  .sports-horizontal-list {
+    display: none;
+  }
+  .scroll-window1 {
+    display: none;
+  }
+  .login-button {
+    color: white;
+    background-color: #b6842d;
+    border-radius: 2px;
+    border: none;
+    padding: 5px 10px;
+  }
+  .register-button {
+    background-color: white;
+    color: #b6842d;
+    border-radius: 2px;
+    border: none;
+    padding: 5px 10px;
+  }
+  main {
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+  .gifs {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65px 65px;
+    row-gap: 1px;
+    column-gap: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .gif {
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 5px;
+  }
+  .gif-container {
+    background-color: white;
+    padding: 0px;
+  }
 
-.gif-container:nth-child(7){
-  display: none;
+  .gif-container:nth-child(7) {
+    display: none;
+  }
+  .gif-container:nth-child(8) {
+    display: none;
+  }
+
+  .categories-stripe {
+    display: flex;
+    flex-shrink: 1;
+    overflow-x: auto;
+    background-color: rgba(128, 128, 128, 0.351);
+  }
+
+  .strip-child {
+    display: flex;
+    border: 1px solid rgb(255, 245, 245);
+    padding: 6px 13px;
+    flex-direction: column;
+    gap: 4px;
+    min-width: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu-options {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    border: 1px solid white;
+    bottom: 0px;
+    left: 0px;
+    align-items: center;
+    padding: 15px 7px;
+    gap: 124px;
+    justify-content: center;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+  }
+
+  .footer-menu-container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .common-child-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu-child-home {
+    position: absolute;
+    bottom: 35px;
+    left: 42%;
+    background-color: rgb(194, 194, 107);
+    padding: 8px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 5px solid white;
+  }
+
+  .footer-menu-child {
+    background-color: red;
+    gap: 3px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+  .right-window-container {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+  .photos {
+    display: none;
+  }
 }
-.gif-container:nth-child(8){
-  display: none;
-}
-.sidebar{
-  display: none;
-}
-.right-window-container{
-  display: none;
-}
-
-
-footer{
-  display: none;
-}
-.photos{
-  display: none;
-}
-
-
-
-
-} 
-
-
